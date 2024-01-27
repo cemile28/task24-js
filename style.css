@@ -1,0 +1,30 @@
+
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+table {
+    border-collapse: collapse;
+    min-width: 330px;
+  }
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 20px;
+    border-radius: 4%;
+    
+}
+th{
+    background-color: rgb(89, 142, 189);
+}
+tr:nth-child(even) {
+    background-color: #d4ad69;
+}
+.searchCoin{
+    margin-left: -150px;
+    margin-bottom: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+}
